@@ -28,7 +28,7 @@ app.set('port', port);
 usersRoute(app);
 
 
-server.listen(3000, '192.168.1.17' || 'localhost', function() {
+server.listen(3000, '127.0.0.0' || 'localhost', function() {
     console.log("Server Node Js Corriendo...");
 });
 
